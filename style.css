@@ -1,0 +1,94 @@
+.checked{
+    color: orange;
+}
+body{
+    background-image: url(social-proof-section-master/images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
+}
+
+.oneplate{
+    width: 70%;
+}
+.twoplate{
+    width: 70%;
+}
+.threeplate{
+    width: 70%;
+}
+.color{
+    color:hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.head{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-family: 'Spartan', sans-serif;
+    font-size: 3.5rem;
+}
+
+body{
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+}
+
+.stats div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.stats div h4{
+    color: hsl(303, 10%, 53%);
+    font-size: 15px;
+
+}
+
+.stats div h3{
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.main-content{
+    width: 32%;
+    
+}
+
+
+
+@media (max-width:768px){
+    .medium{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        margin: auto;
+    }
+    .main-content{
+        width:70% ;
+        margin: auto;
+        margin-top: 12px;
+    }
+}
+
+
+@media (max-width:425px){
+    .main-content{
+        width: 70%;
+    }
+    .head{
+        text-align: center;
+    }
+    .para{
+        text-align: center;
+    }
+}
+
+@media (max-width:375px){
+    .medium{
+        width: 80%;
+    }
+}
+
+
